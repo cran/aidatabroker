@@ -1,19 +1,22 @@
 Package: aidatabroker
 Type: Package
-Title: Read Open Data on the AI Training Data Market
-Version: 0.1.0
+Title: Read Licensed Market Data on AI Training Data
+Version: 0.2.0
 Authors@R: person("Yuma", "Heymans", email = "hello@aidata.broker", role = c("aut", "cre"))
-Description: Downloads the open datasets published by 'AIData.Broker' on the
-    market for AI training data: public prices, licensing deals, buyers,
-    vendors, lawsuits and related tables, each row with its source, from
-    <https://aidata.broker/datasets>. The data are licensed CC BY 4.0.
+Description: Reads the tables that 'AIData.Broker' keeps on the market for AI
+    training data (prices, licensing deals, buyers, vendors, lawsuits and
+    related tables, each row with its source) for holders of its Market Data
+    Licence, using the licence's API key. Since 11 November 2026 the tables
+    are sold under that licence, not published openly; see
+    <https://aidata.broker/datasets> for the licence and its terms.
 License: MIT + file LICENSE
 URL: https://aidata.broker/datasets
+Depends: R (>= 3.6.0)
 Encoding: UTF-8
 Imports: utils
 NeedsCompilation: no
-Packaged: 2026-10-18 13:44:47 UTC; yuma2
+Packaged: 2026-11-12 01:52:09 UTC; yuma2
 Author: Yuma Heymans [aut, cre]
 Maintainer: Yuma Heymans <hello@aidata.broker>
 Repository: CRAN
-Date/Publication: 2026-10-29 11:20:10 UTC
+Date/Publication: 2026-11-12 14:50:21 UTC
